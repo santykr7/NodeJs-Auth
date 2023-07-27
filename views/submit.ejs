@@ -1,0 +1,22 @@
+<%- include('_partials/_header') %>
+
+    <div class="main-body">
+        <div class="cotainer">
+            <i class="bi bi-wechat"></i>
+            <h1>Secrets</h1>
+            <h2>Share your secrets to anyone</h2>
+
+            <form action="/submit" method="post">
+                <div class="mb-3">
+                 
+                  <input type="text" class="form-control" name="secret" placeholder="what's your secrets">
+                 </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+        </div>
+    </div>
+    
+
+    <%- include('_partials/_footer') %>
+   

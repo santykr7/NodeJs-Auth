@@ -1,0 +1,24 @@
+<%- include('_partials/_header') %>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-body">
+                        <!-- Makes POST request to login route -->
+                        <form action="/register" method="post">
+                            
+                              <label for="email">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                             
+                             <label for="password">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <%- include('_partials/_footer') %>
